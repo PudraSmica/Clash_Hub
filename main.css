@@ -7,3 +7,47 @@ body{
     background-image: url('img/mainFon.png');
     background-repeat: no-repeat;
 }
+
+a {
+    text-decoration: none !important;
+}
+
+
+#mian{
+    width: 90%;
+    height: 100vh;
+    margin-left: 5%;
+}
+
+#header{
+    position: fixed;
+    width: 90%;
+    height: 70px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+#main-name{
+    display: inline;
+    line-height: 70px;
+    color: black;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+#main-ico{
+    width: 32px;
+}
+
+.links-text{
+    float: right;
+    color: #000;
+    line-height: 70px;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
